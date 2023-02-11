@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+
+:root{
+    --cor-top-f: #333;
+    --cor-link: #fd8a24;
+    --cor-f-1: #555;
+    --cor-f-2: #111;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: var(--cor-f-1);
+}
+
+h1, h2{
+    color: var(--cor-f-2);
+}
+
+a{
+    text-decoration: none;
+}
+
+.top-bar{
+    background-color: var(--cor-top-f);
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: .5rem;
+    border-bottom: 5px solid var(--cor-link) ;
+}
+
+.container{
+    width: 100%;
+    max-width: 55rem;
+    margin: 0 auto;
+    margin-top: 1.25rem;
+    padding: 1.875rem;
+}
+
+/* line-height ideal é o tamanho da font-size + 8 */
+.headline{
+    font-size: 3.5rem;
+    line-height: 4rem;
+}
+
+.subtitle{
+    font-weight: normal;
+    font-size: 1.25rem;
+}
+
+.author{
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.social-icons{
+    margin-top: .625rem;
+}
+
+.social-icon{
+    width: 1.25rem;
+    padding: .625rem .625rem .625rem 0;
+}
